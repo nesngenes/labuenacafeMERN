@@ -1,0 +1,36 @@
+.add-menu-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 700px;
+    padding: 40px;
+    color: black;
+}
+
+.add-menu-container > * {
+    margin: 10px;
+}
+
+.add-menu-form {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.add-menu-container input {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    width: 100%;
+}
+
+.add-menu-container select {
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.add-menu-container button {
+    padding: 10px 20px;
+    width: 200px;
+}

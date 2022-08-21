@@ -1,0 +1,65 @@
+.two-main-menu {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+
+.wrapper-beverages {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-beverages::before {
+    background-image: url('../../assets/beve2.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca89e;
+    background-blend-mode: multiply;
+}
+
+.wrapper-food {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-food::before {
+    background-image: url('../../assets/food1.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-color: #9ca89e;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: multiply;
+}
+
+.wrapper-content {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-main-menu {
+    padding: 10px 20px;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+}
