@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro h1 {
+  color: #92ed7b;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 80px 0;
+}
+
+.intro p {
+  color: white;
+}
+
+.intro button {
+  margin: 40px 0;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.accessories {
+  width: 70px;
+}
+
+.main-page {
+  background-color: black;
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.main-image {
+  border-radius: 95%;
+}
+
+.main-image img {
+  width: 800px;
+  clip-path: circle();
+}

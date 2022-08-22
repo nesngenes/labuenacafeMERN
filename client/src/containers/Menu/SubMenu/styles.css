@@ -1,0 +1,175 @@
+.sub-menu {
+    background-color: black;
+    height: 100vh;
+}
+
+.beverages-sub-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider > * {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espresso {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espresso::before {
+    background-image: url('../../../assets/espresso.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca89e;
+    background-blend-mode: multiply;
+}   
+
+
+.brewed {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.brewed::before {
+    background-image: url('../../../assets/brewed.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca89e;
+    background-blend-mode: multiply;
+}   
+
+.blended {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blended::before {
+    background-image: url('../../../assets/blended2.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca89e;
+    background-blend-mode: multiply;
+}
+
+.others {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.others::before {
+    background-image: url('../../../assets/beve1.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca89e;
+    background-blend-mode: multiply;   
+}
+
+.sub-menu-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.food-sub-menu {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.core {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.core::before {
+    background-image: url('../../../assets/pizza.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca89e;
+    background-blend-mode: multiply;   
+}
+
+.reserve {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserve::before {
+    background-image: url('../../../assets/bakery.jpg');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca89e;
+    background-blend-mode: multiply;   
+}

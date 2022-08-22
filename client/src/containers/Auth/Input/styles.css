@@ -1,0 +1,8 @@
+.input-and-button {
+    display: flex;
+    align-items: center;
+}
+
+.input-and-button > * {
+    margin-right: 10px;
+}

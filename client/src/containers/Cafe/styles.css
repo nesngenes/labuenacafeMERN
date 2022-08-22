@@ -1,0 +1,19 @@
+.cafes-container {
+    height: 100vh;
+}
+
+.cafes {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cafe {
+    background-color: rgb(232, 239, 232);
+    margin: 10px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+

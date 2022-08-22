@@ -1,0 +1,65 @@
+.auth-form {
+    background-color: pink;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+    position: relative;
+}
+
+.auth-container {
+    margin: 0 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 22, 23);
+    color: white;
+    border-radius: 25px;
+    padding: 40px 80px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.auth-form::before {
+    content: '';
+  background-color: #9fa7a1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('../../assets/cafe3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.auth-container > *{
+    margin: 10px;
+}
+
+.auth-heading {
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+
+.switch-mode > p{
+    cursor: pointer;
+}
+
+

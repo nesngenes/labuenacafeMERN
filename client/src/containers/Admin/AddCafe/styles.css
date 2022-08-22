@@ -1,0 +1,31 @@
+.addCafeForm {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 700px;
+    padding: 40px;
+    color: black;
+}
+
+.addCafeForm > * {
+    margin: 10px;
+}
+
+.addCafeForm input {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    width: 100%;
+}
+
+.addCafeForm select {
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.addCafeForm button {
+    padding: 10px 20px;
+    width: 200px;
+}

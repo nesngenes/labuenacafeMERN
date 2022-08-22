@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about-page {
+  position: relative;
+  height: 100vh;
+}
+
+.about-page::before {
+  content: '';
+  background-color: #333834;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('../../assets/cafe.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.about-page .content {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page .content h1 {
+  margin: 50px;
+}
+
+.about-page .the-story {
+  display: flex;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.about-page .the-story p {
+  width: 45%;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.about-page .space {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-page .dashed {
+  width: 4px;
+  height: 300px;
+  background-color: white;
+}
+
+.about-page .whitecoffee {
+  width: 80px;
+}
