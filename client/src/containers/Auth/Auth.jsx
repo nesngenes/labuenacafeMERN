@@ -10,6 +10,8 @@ import { gapi } from "gapi-script";
 
 const initialState = {firstname: '', lastname: '', email: '', password: '', confirmPassword: '', role: 'user'}
 
+
+
 const Auth = () => {
   const [isSignUp, setIsSignUp] = useState(false)
   const dispatch = useDispatch()
